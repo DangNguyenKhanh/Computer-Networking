@@ -1,1 +1,28 @@
+Bài tập 1:
+  - Khoảng cách từ A đến B: 100km
+  - Tốc độ đường truyền: 360,000 km/h
+  - Trung bình mỗi gói tin có kích thước: 1000 bytes
+  - Băng thông của đường truyền: 100 Mbps
+  - Mỗi gói tin cần 0.01 để xử lý
+  - Cho biết hàng đợi đang rỗng
+
+
+a. Thời gian gửi một gói tin từ A đến B ?
+Độ trễ do băng thông = kích thước gói tin / băng thông = (1000 x 8) / (100 x 1,000,000) = 8x10-5 (s)
+Độ trễ do khoảng cách = khoảng cách AB / tốc độ đường truyền = 100 / 360,000 = 1/3600 (h) = 1 (s)
+Độ trễ do hàng đợi  = 0
+Độ trễ do xử lý = 0.01 (s)
+
+=> Tổng thời gian gửi 1 gói tin = 8x10-5 + 1 + 0 + 0.01 = 1.01008 (s)
+
+
+b. Tại thời điểm 0,1s, bit đầu tiên của gói tin đang ở vị trí nào ?
+8x10-5 + tAX + 0 + 0,01 = 0,1
+tAX = 0.08992 (s) = 2.497x10-5 (h)
+=> Khoảng cách AX = 2.497x10-5 . 360,000 = 8.9892 (km)
+
+
+c. Thời gian để gởi 5 gói tin ?
+Tổng thời gian gửi 5 gói tin = 5 x 1.01008 = 5.0504 (s)
+
 
