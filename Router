@@ -1,3 +1,3 @@
 1. BỘ ĐỆM (BUFFER):
-- Nếu như trong bộ đệm đã đầy thì router sẽ tự động bỏ gói tin (dropped) 
+- Nếu như trong bộ đệm đã đầy thì router sẽ tự động bỏ gói tin (dropped) hoặc có thể được truyền ngược lại cho nút trước đó
 
