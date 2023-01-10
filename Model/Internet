@@ -1,27 +1,30 @@
 Gồm 5 tầng:
 -----------------------
-|     application     |
+|     application     |   message 
+----------------------- 
+|     transport       |   segment    
 -----------------------
-|     transport       |
+|     network         |   datagram
 -----------------------
-|     network         |
+|     data-link       |   frame
 -----------------------
-|     data-link       |
------------------------
-|     physical        |
+|     physical        |   bit
 -----------------------
 
 Tầng application:
 - Có các ứng dụng mạng
 - Giao thức hỗ trợ:   IMAP, SMTP, HTTP
 
+
 Tầng transpot:
 - Xử lý dữ liệu
 - Giao thức hỗ trợ:   TCP, UDP
 
+
 Tầng network:
 - Định tuyến routing
 - Giao thức hỗ trợ:   IP
+
 
 Tầng data-link:
 - Kiểm soát đường truyền
