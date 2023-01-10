@@ -1,1 +1,30 @@
+Gồm 7 tầng:
+-----------------------
+|     application     |   message 
+-----------------------
+|     presentation    |    
+-----------------------
+|     session         |    
+-----------------------
+|     transport       |   segment    
+-----------------------
+|     network         |   datagram
+-----------------------
+|     data-link       |   frame
+-----------------------
+|     physical        |   bit
+-----------------------
+
+Tầng Presentation:
+- Phân tích ý nghĩa của dữ liệu:  
+  + Mã hóa (encryption)
+  + Nén (compression)
+  + Quy ước chuẩn hóa dữ liệu
+
+
+Tầng session:
+- Đồng bộ hóa (synchronization)
+- Kiểm tra điểm dữ liệu (checkpointing)
+- Hồi phục dữ liệu trao đổi (recovery of data exchange)
+
 
