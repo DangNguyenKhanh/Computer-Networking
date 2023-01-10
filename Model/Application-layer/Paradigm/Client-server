@@ -1,0 +1,16 @@
+SERVER:
+- Máy chủ (host) luôn hoạt động
+- Địa chỉ IP cố định
+
+
+CLIENT:
+- Có địa chỉ IP động (dynamic IP address)
+- Các client sẽ không giao tiếp trực tiếp với nhau
+
+
+GIAO THỨC HỖ TRỢ: 
+- HTTP
+- IMAP
+- FTP
+
+
