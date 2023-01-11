@@ -1,0 +1,20 @@
+Domain Name System - DNS
+
+
+HOẠT ĐỘNG:
+- Tìm địa chỉ IP của www.google.com
+- client truy xuất root server tìm miền .com của DNS server
+- clinet truy xuất .com của DNS server để có google.com của DNS server
+- client truy xuất google.com để có địa chỉ IP của www.google.com
+
+
+Top-Level Domain (TLD) servers:
+- Example: .com, .net, .edu
+
+
+Authoritative DNS servers:
+- Example: kirad.com
+
+
+
+
