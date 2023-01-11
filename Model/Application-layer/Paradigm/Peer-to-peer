@@ -1,5 +1,6 @@
-SERVER:
-- Không có máy chủ 
+CLIENT-SERVER:
+- Không có máy chủ (Có thể có)
+- Có khả năng tích hợp client-server vào P2P
 
 
 PEERS:
