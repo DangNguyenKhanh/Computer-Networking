@@ -8,6 +8,12 @@ PEERS:
 - Địa chỉ IP có thể thay đổi 
 
 
-PROTOCOLS:
-- P2P của ứng dụng BitTorrent
+VÍ DỤ:
+- P2P file sharing (BitTorrent)
+- Streaming (KanKan)
+  + Dynamic, Adaptive Streaming over HTTP (DASH)
+  + Content distribution networks (CDNs)
+- VoIP (Skype)
+
+
 
