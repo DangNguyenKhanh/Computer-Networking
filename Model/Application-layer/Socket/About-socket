@@ -23,12 +23,9 @@ ADDRESSING PROCESS
   + mail server: 25
 
 
-HOẠT ĐỘNG:
-Example:
-- client đọc kí tự từ bàn phím gửi cho server
-- server nhận các kí tự, cuyển thành upper case
-- server gửi lại dữ liệu cập nhật
-- client nhận dữ liệu và in ra
+
+
+
 
 
 
