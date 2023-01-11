@@ -1,9 +1,12 @@
 SERVER:
 - Không có máy chủ 
 
+
 PEERS:
 - Kết nối không liên tục
 - Địa chỉ IP có thể thay đổi 
 
+
 PROTOCOLS:
 - P2P của ứng dụng BitTorrent
+
