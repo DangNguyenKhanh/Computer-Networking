@@ -1,1 +1,5 @@
-
+CÁCH HOẠT ĐỘNG:
+- Từ Browser truy cập trang web A
+- Khi HTTP request gửi tới web server
+  + Web server tạo Unique ID (Cookie)
+  + Lưu trữ trong data-base của web server
