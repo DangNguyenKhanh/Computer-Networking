@@ -1,1 +1,10 @@
+Hypertext Transfer Protocol - HTTP
+
+
+ĐỊNH NGHĨA:
+- Dùng trong mô hình client-server
+- Client gửi yêu cầu (HTTP request)
+- Server phản hồi (HTTP response)
+
+
 
