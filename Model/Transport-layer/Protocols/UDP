@@ -3,5 +3,14 @@ User Datagram Protocol - UDP
 
 ĐẶC ĐIỂM:
 - Những gì TCP có thì UDP không có
+- Không có kết nối giữa client và server (no handshaking before sending data)
+- Người gửi mô tả rõ ràng cho mỗi packet:
+  + Địa chỉ IP đích
+  + Địa chỉ PORT đích
+- Người nhận phân giải 2 địa chỉ trên
+- Dữ liệu được truyền
+  + Có thể bị mất
+  + Có thể không đung thứ tự
+
 
 
