@@ -7,4 +7,25 @@ Hypertext Transfer Protocol - HTTP
 - Server phản hồi (HTTP response)
 
 
+HTTP sử dụng TCP:
+- Client tạo kết nối TCP (tạo socket) đến server, port 80
+- Server chấp nhận kết nối TCP của client
+- Trao đổi tin nhắn giữa Browser (HTTP client) và web server (HTTP server)
+- Đóng kết nối TCP
+
+
+HTTP request:
+- POST method
+- GET method
+- HEAD method
+- PUT method
+
+
+HTTP response:
+- Mã trạng thái (status code)
+  + 200: OK - Yêu cầu thành công, file yêu cầu sẽ được gửi sau tin nhắn này
+  + 301: Moved Permanently - vị trí của file đã thay đổi, sẽ nhận được địa chỉ mới sau tin nhắn này
+  + 400: Bad Request - Server không hiểu yêu cầu
+  + 404: Not Found - Không tìm thấy file trên Server
+  + 505: phiên bản HTTP không hỗ trợ
 
