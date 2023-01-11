@@ -8,7 +8,7 @@ CLIENT:
 - Các client sẽ không giao tiếp trực tiếp với nhau
 
 
-GIAO THỨC HỖ TRỢ: 
+PROTOCOLS: 
 - HTTP
 - IMAP
 - FTP
