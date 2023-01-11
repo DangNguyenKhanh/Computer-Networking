@@ -1,0 +1,33 @@
+Trong mô hình mạng Internet:
+-----------------------
+|     application     |   message         Developer 
+----------------------- 
+|     transport       |   segment         OS controlled
+-----------------------
+|     network         |   datagram        OS controlled
+-----------------------
+|     data-link       |   frame           OS controlled
+-----------------------
+|     physical        |   bit             OS controlled
+-----------------------
+
+
+APPLICATION:
+- Socket giống như cánh cửa để qua transport
+
+
+ADDRESSING PROCESS
+- IP address
+- PORT number
+  + HTTP server: 80
+  + mail server: 25
+
+  
+
+
+
+
+
+
+
+
