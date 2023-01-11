@@ -1,0 +1,23 @@
+Simple Mail Transfer Protocol - SMTP
+
+
+User agent:
+- Sẽ là 1 mail box trong mail server
+- Gửi mail đi
+
+
+Mail server:
+- Hàng đợi mail
+- Các mail box
+
+
+HOẠT ĐỘNG:
+- Giao thức SMTP giúp Mail server gửi các mail qua Mail server khác
+- Khi nhận được mail sẽ được đưa vào mail box để các user agent truy cập
+
+
+
+
+
+
+
