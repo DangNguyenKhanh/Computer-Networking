@@ -1,0 +1,11 @@
+Proxy-server: Server ủy quyền
+
+
+CHỨC NĂNG:
+- Nhận tất cả các HTTP request từ client
+- Lưu các yêu cầu vào cache (bộ đệm)
+- Nếu file đã có trong cache sẽ gửi lại cho client cần
+- Nếu file chưa có trong cache, server ủy quyền sẽ yêu cầu origin server (server gốc) để phản hồi file, sau đó server ủy quyền gửi lại cho client
+
+
+
