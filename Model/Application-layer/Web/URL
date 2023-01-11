@@ -1,1 +1,10 @@
+Uniform Resource Locator - URL
+
+
+ĐỊNH NGHĨA:
+- Là địa chỉ của một file được lưu trên server
+- VD địa chỉ URL: www.someschool.edu/someDept/pic.gif
+  + Host name: www.someschool.edu
+  + Path name: someDept/pic.gif
+
 
