@@ -43,6 +43,7 @@ serverSocket.listen(1)
 print("The server is ready to receive")
 
 while True:
+    # server waits on accept() for incoming requests, new socket client on return
     connectionSocket, addr = serverSocket.accept()
     
     message = connectionSocket.recv(1024).decode()
