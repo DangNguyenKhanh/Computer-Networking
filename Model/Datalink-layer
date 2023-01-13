@@ -1,0 +1,20 @@
+ĐIỀU KHIỂN LUỒNG
+Phương pháp dừng và chờ (Stop and Wait)
+- Đơn giản nhất
+- Kém hiệu quả vì chỉ có một frame được truyền tại một thời điểm
+
+
+Phương pháp cửa số trượt (Sliding Window Flow Control)
+- Hiệu quả
+- Cho phép nhiều frame trên một kênh truyền
+
+
+PHÁT HIỆN LỖI
+- Parity Check (PC)
+- Cyclic Redundancy Check (CRC)
+
+
+XỬ LÝ LỖI
+- ARQ dừng và chờ
+- ARQ quay lui N
+- ARQ chọn-hủy (Selective-Reject)
