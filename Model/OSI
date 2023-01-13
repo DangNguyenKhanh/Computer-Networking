@@ -8,7 +8,7 @@ Gồm 7 tầng:
 -----------------------
 |     transport       |   segment    
 -----------------------
-|     network         |   datagram
+|     network         |   datagram    packet
 -----------------------
 |     data-link       |   frame
 -----------------------
