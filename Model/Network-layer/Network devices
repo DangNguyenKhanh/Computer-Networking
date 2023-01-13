@@ -1,0 +1,57 @@
+NIC (Network Interface Adapter Card)
+- Card mạng
+- Cho phép máy tính kết nối mạng
+- Có địa chỉ MAC (Media Access Control) gồm 6 bytes
+  + 3 byte đầu là mã số nhà sản xuất (ID of that factory product this NIC)
+  + 3 byte sau là số serial của card (ID of this NIC)
+
+
+Modem 
+- Viết của 2 từ MOdulation điều chế và DEModulation giải điều chế
+- Điều chế tín hiệu số Digital sang tín hiệu tương tự Analog 
+  + Digital signal: Truyền số nhị phân 0 1
+  + Analog signal: Truyền tần số điện từ
+- Gồm 2 loại: Internal và External
+
+
+Repeater
+- Bộ chuyển tiếp
+- Khuếch đại, phục hồi tín hiệu
+- Nối 2 mạng cùng giao thức truyền thông
+- Ít đầu cắm
+- Hoạt động tầng: Physical layer
+
+
+Hub
+- Bộ trung tâm
+- Chức năng như repeater 
+- Nhiều đầu cắm
+- Phân loại:
+  + Hub thụ động
+    > Chỉ đảm bảo kết nối, không xử lý tín hiệu
+  + Hub chủ động 
+    > Khuếch đại tín hiệu
+  + Hub thông minh
+    > Có khả năng thông báo hoạt động cho nhà quản trị mạng
+
+
+Bridge
+- Cầu nối
+- Dùng để nối 2 mạng khác nhau 
+- Dựa trên địa chỉ MAC đã lưu trữ, bridge kiểm tra các gói tin và xử lý trước khi chuyển đi
+- Hoạt động tầng: Data-link layer
+
+
+Switch
+- Bộ chuyển mạch
+- Giống bridge và hub cộng lại 
+- Phân đoạn mạng trong mạng cục bộ lớn
+- Hoạt động tầng: Data-link layer
+
+
+
+
+
+
+
+
