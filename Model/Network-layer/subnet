@@ -1,1 +1,4 @@
-
+KỸ THUẬT CHIA MẠNG CON
+- Chia bớt số bits trong host_id cho subnet_id
+- Cấu trúc IP có dạng: network_id, subnet_id, host_id
+  
