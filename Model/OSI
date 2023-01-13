@@ -15,16 +15,57 @@ Gồm 7 tầng:
 |     physical        |   bit
 -----------------------
 
-Tầng Presentation:
+
+Tầng Application (Ứng dụng mạng)
+- Giao diện user và OSI
+- Cung cấp dịch vụ mạng
+
+Tầng Presentation (Định dạng dữ liệu)
 - Phân tích ý nghĩa của dữ liệu:  
   + Mã hóa (encryption)
   + Nén (compression)
   + Quy ước chuẩn hóa dữ liệu
 
 
-Tầng session:
+Tầng Session (Truyền thông liên host)
+- Thiết lập, quản lý, kết thúc các phiên giữa các ứng dụng
 - Đồng bộ hóa (synchronization)
 - Kiểm tra điểm dữ liệu (checkpointing)
 - Hồi phục dữ liệu trao đổi (recovery of data exchange)
 
+
+Tầng Transport (Kết nối end-to-end)
+- Vận chuyển giữa các host
+- Vận chuyển tin cậy
+- Thiết lập, duy trì, kết nối các mạch ảo
+- Phát hiện lỗi, phục hồi thông tin và điều khiển luồng
+
+
+Tầng Network (Địa chỉ mạng và định đường đi tốt nhất)
+- Tin cậy
+- Địa chỉ luận lý, topo mạng
+- Định tuyến
+
+
+Tầng data-link (Điều khiển liên kết, truy xuất đường truyền)
+- Đóng Frame
+- Ghi địa chỉ vật lý
+- Điều khiển luồng
+- Kiểm soát lỗi, thông báo lỗi
+
+
+Tầng physical
+- Truyền dẫn nhị phân
+- Chế độ truyền dẫn:
+  + Simplex: 1 chiều
+  + Half-duplex: 2 chiều nhưng không được đồng thời
+  + full-duplex: 2 chiều nhưng được đồng thời
+
+
+NOTE:
+- 7 tầng này chỉ tồn tại trong máy tính nguồn và máy tính đích
+- Quản lý thông tin di chuyển trong LAN, WAN:
+  + Tầng Network
+  + Tầng Data-link
+  + Tầng physical
 
