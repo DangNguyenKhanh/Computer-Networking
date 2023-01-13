@@ -45,8 +45,24 @@ Bridge
 Switch
 - Bộ chuyển mạch
 - Giống bridge và hub cộng lại 
-- Phân đoạn mạng trong mạng cục bộ lớn
+- Phân đoạn mạng trong mạng cục bộ lớn (Kết nối mạng hình sao - star topology)
 - Hoạt động tầng: Data-link layer
+
+
+Router
+- Bộ định tuyến
+- Ghép nối các mạng cục bộ thành mạng lớn
+- Lựa chọn các đường đi tốt nhất cho gói tin
+- 2 Cơ chế định tuyến:
+  + Static routing: Cấu hình các đường đi cố định, cài đặt đường đi trên bảng định tuyến
+  + Dynamic routing: 
+    > Vector khoảng cách: RIP, IGRP, EIGRP, BGP
+    > Trạng thái đường liên kết: OSPF
+- Hoạt động ở tầng: Network layer
+- Router sẽ kết nối với các switch, các switch sẽ kết nối với các máy
+
+
+
 
 
 
