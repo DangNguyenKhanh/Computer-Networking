@@ -2,4 +2,6 @@ Trivial File Transfer Protocol - TFTP
 
 
 ĐẶC ĐIỂM:
-- 
+- Dùng UDP trên router để truyền file cho hệ điều hành
+
+
