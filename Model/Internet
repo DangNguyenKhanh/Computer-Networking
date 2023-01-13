@@ -28,7 +28,7 @@ Tầng network:
 
 Tầng data-link:
 - Kiểm soát đường truyền
-- Giao thức hỗ trợ:   Ethernet, (802.11) Wi-Fi, Point-to-Point (PPP)
+- Giao thức hỗ trợ: Ethernet, (802.11) Wi-Fi, Point-to-Point (P2P)
 
 Tầng physical:
 - Gửi bit
