@@ -1,1 +1,10 @@
+NHỊ PHÂN (BIN) -> BÁT PHÂN (OCT)
+- Gom thành cụm 3 xong đổi cụm đó thành giá trị bát phân
+VD: 1101100 = 1 101 100 (Binary) -> 154 (octal)
+
+
+NHỊ PHÂN (BIN) -> THẬP LỤC PHÂN (HEX)
+- Gom thành cụm 4 xong đổi cụm đó thành giá trị thập lục phân
+VD: 1101100 = 110 1100 (Binary) -> 6C (hex)
+
 
