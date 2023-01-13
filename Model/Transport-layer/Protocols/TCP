@@ -2,8 +2,9 @@ Transmission Control Protocol - TCP
 
 
 ĐẶC ĐIỂM:
+- Giao thức có kết nối (connection-oriented)
 - Tính tin cậy 
 - Điều khiển lưu lượng (tắc nghẽn, không lấn át)
 - Tính bảo mật
-- Kết nối có liên kết (connection-oriented)
+
 
