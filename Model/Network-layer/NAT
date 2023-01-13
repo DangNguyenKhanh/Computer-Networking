@@ -1,0 +1,6 @@
+Network Address Translation - NAT
+
+
+MỤC ĐÍCH:
+- Giấu kín IP nội bộ, chuyển thành IP công cộng khi ra ngoài
+- Số hiệu cổng nguồn 16 bits khác nhau 
