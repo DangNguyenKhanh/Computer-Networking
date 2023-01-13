@@ -8,7 +8,7 @@ Transmission Control Protocol - TCP
 - Tính bảo mật
 
 
-GÓI TIN TCP:
+GÓI TIN TCP (Rộng x Dài = 20 x 32 bytes):
 -----------------------------------------------------------------
 bit0                   bit15| bit16                         bit31
 -----------------------------------------------------------------
