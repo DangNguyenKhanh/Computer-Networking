@@ -62,9 +62,12 @@ Router
 - Router sẽ kết nối với các switch, các switch sẽ kết nối với các máy
 
 
+Gateway (Proxy - cổng nối)
+- Kết nối các mạng lớn LAN-MAN hoặc MAN-WAN
+- Hoạt đồng tầng: Application, presentation, session, transport
 
 
-
+ 
 
 
 
