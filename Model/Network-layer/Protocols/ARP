@@ -1,5 +1,10 @@
-Address Solution Protocol - ARP
+Address Resolution Protocol - ARP
 
 
 ĐẶC ĐIỂM:
 - Xác định địa chỉ MAC khi biết địa chỉ IP
+
+
+HIỂU ĐƠN GIẢN:
+- Tôi có địa chỉ IP, ai có địa chỉ IP giống vậy lên tiếng, máy B sẽ phản hồi giao thức ARP kèm địa chỉ MAC
+
