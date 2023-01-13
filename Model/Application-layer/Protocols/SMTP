@@ -1,6 +1,10 @@
 Simple Mail Transfer Protocol - SMTP
 
 
+ĐẶC ĐIỂM
+- Quản lý hoạt động truyền email qua mạng máy tính 
+
+
 User agent:
 - Sẽ là 1 mail box trong mail server
 - Gửi mail đi
