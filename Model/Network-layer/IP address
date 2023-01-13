@@ -1,0 +1,68 @@
+ĐỊA CHỈ IP
+- Địa chỉ IP dạng bát phân (octet)
+- Kích thước 32 bits = 4 bytes chia làm 4 phần
+- IP address = Network ID + Host ID
+
+
+ĐỊA CHỈ NETWORK VÀ ĐỊA CHỈ HOST
+- Các host nằm cùng 1 mạng sẽ cùng Network ID và khác Host ID
+- Các host nằm khác mạng sẽ khác Network ID và có thể giống nhau Host ID
+
+
+CLASS OF ADDRESS
+- Địa chỉ host trong một lớp mạng không được tất cả bits đều là 1 hoặc 0
+
+Class A
+- network_id = 1 bytes
+- host_id = 3 bytes
+- Byte đầu tiên có dạng: 0xxx.xxxx => có đến 2^7 = 128 mạng lớp A (Lý thuyết)
+  + 128 mạng lớp A tính từ mạng byte đầu là 0 đến mạng byte đầu là 127 và người ta bỏ đi 2 trường hợp 0 và 127 (chưa tính vô lớp 127)
+  + Nên mạng lớp A chỉ 126 địa chỉ từ 1 đến 126
+- Có 3 bytes host = 24 bits = 2^24 Host khác nhau trong một mạng lớp A (Chưa đúng)
+  + Bỏ đi 2 trường hợp host toàn chứa bit 0 và 1 như: x.0.0.0 và x.1.1.1
+  + Nên trong một mạng lớp A chỉ có 2^24 - 2 host
+- VD: mạng lớp A: 10.0.0.0 thì host hợp lệ tính từ 10.0.0.1 đến 10.255.255.254
+  
+  
+Class B
+- network_id = 2 bytes
+- host_id = 2 bytes
+- Byte đầu tiên có dạng: 10xx.xxxx => có đến 2^14 mạng lớp B (Lý thuyết)
+  + 2^14 mạng lớp B tính từ mạng byte đầu 128.0 đến 192.0 và người ta bỏ đi một trường hợp 192.0 (chưa tính vô lớp 192) 
+  + Nên mạng lớp B chỉ có 2^14 - 1 địa chỉ tính từ 128.0 đến 191.255
+- Có 2 bytes host = 16 bits = 2^16 Host khác nhau 
+  + Bỏ đi 2 trường hợp host toàn chứa bit 0 và 1 như: x.x.0.0 và x.x.1.1
+  + Nên trong một mạng lớp B chỉ có 2^16 - 2 host
+- VD: mạng lớp B: 172.29.0.0 thì host hợp lệ tính từ 172.29.0.1 đến 172.29.255.254
+
+
+CLASS C
+- network_id = 3 bytes
+- host_id = 1 bytes
+- Byte đầu tiên có dạng: 110x.xxxx => có đến 2^(3 x 8 - 3) = 2^21 mạng lớp C (Lý thuyết)
+  + 2^21 mạng lớp C tính từ mạng byte đầu 192.0.0 đến 224.0.0 và người ta bỏ đi môt trường hợp 224.0.0 (chưa tính vô lớp 224)
+  + Nên mạng lớp C chỉ có 2^21 - 1 địa chỉ tính từ 192.0.0 đến 223.255.255
+- Có 1 bytes host = 8 bits = 2^8 host khác nhau
+  + Bỏ đi 2 trường hợp host toàn chứa bit 0 và 1 như: x.x.x.0 và x.x.x.1
+  + Nên trong một mạng lớp B chỉ có 2^8 - 2 host
+- VD: mạng lớp C: 203.162.41.0 thì host hợp lệ tính từ 203.162.41.1 đến 203.162.41.254
+
+
+CLASS D
+- 1110.xxxx
+
+
+CLASS E
+- 1111.0xxx
+
+
+ĐỊA CHỈ DÀNH RIÊNG
+Class A: 10.0.0.0 đến 10.255.255.255
+Class B: 172.16.0.0 đến 172.31.255.255
+Class C: 192.168.0.0 đến 192.168.255.255
+
+
+IP CỦA GÓI TIN
+- Giả sử ta có một mạng lớp C: 198.150.12.x thì tại router sẽ có địa chỉ 198.150.12.1
+- Gói tin có địa chỉ IP: 198.150.12.0 thì gói tin này sẽ bị drop
+- Gói tin có địa chỉ IP: 198.150.12.255 thì gói tin này sẽ gửi cho tất cả host có trong mạng 198.150.12
