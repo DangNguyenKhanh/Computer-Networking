@@ -1,0 +1,53 @@
+LAN network
+
+Kết nối điểm-điểm (Point-to-point)
+- Một máy tính kết nối với tất cả máy tính khác
+
+
+Kết nối một điểm - nhiều điểm (Broadcast / Bus)
+- Tất cả các máy kết nối vào 1 đường truyền
+- Ưu điểm
+  + Dễ cài đặt, mở rộng
+  + Chi phí thấp
+  + Một máy hỏng không ảnh hưởng máy khác
+- Nhược điểm
+  + Khó quản trị, tìm nguyên nhân lỗi
+  + Giới hạn chiều dài cáp và số lượng máy tính
+  + Hiệu năng mạng giảm nếu có thêm máy tính vào
+  + Một đoạn cáp backbone bị đứt sẽ ảnh hưởng toàn mạng
+- Token bus
+  + Thẻ bài đơn vị bit biểu diễn trạng thái bận / rãnh
+  + Thẻ bài chạy trên vòng logic (vòng ảo) 
+  + Dùng thẻ bài đường thẳng (Token bus) ai có bài sẽ được truyền dữ liệu
+
+
+Kết nối vòng tròn (Ring)
+- Ưu điểm
+  + Phát triển của hệ thống không ảnh hưởng nhiều đến hiệu năng
+  + Tất cả máy tính có quyền truy cập như nhau
+- Nhược điểm
+  + Phức tạp
+  + Chi phí cao
+  + Một máy tính có sự cố thì ảnh hưởng đến máy tính khác
+- Token ring
+  + Thẻ bài đơn vị bit biểu diễn trạng thái bận / rãnh
+  + Thẻ bài chạy vòng quanh trên mạng
+  + Dùng thẻ bài vòng (Token ring) ai có bài sẽ được truyền dữ liệu
+
+
+Kết nối sao (Star)
+- Kết nối tất cả máy tính vào 1 HUB
+- Ưu điểm
+  + Dễ dàng bổ sung hay bỏ bớt máy tính 
+  + Dể dàng thay đổi
+  + Phù hợp nhiều loại cáp
+- Nhược điểm
+  + Khi HUB không làm việc tất cả không làm việc
+  + Sử dụng quá nhiều cáp để kết nối
+  
+  
+  
+
+
+
+
