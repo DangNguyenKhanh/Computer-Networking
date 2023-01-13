@@ -13,7 +13,7 @@ User Datagram Protocol - UDP
   + Có thể không đung thứ tự
 
 
-Gói tin UDP = 8 bytes:
+Gói tin UDP (Rộng x Dài = 8 x 32 bytes):
 -----------------------------------------------------------------
 bit0                   bit15| bit16                         bit31
 -----------------------------------------------------------------
