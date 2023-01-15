@@ -32,6 +32,7 @@ MẶT NẠ MẠNG CON - SUBNET MASK
 
 
 CÁCH BIẾT NÓ CÓ CHIA SUBNET MASK HAY KHÔNG
-- VD: 172.29.8.230/24 Tức 24 bits đầu cho net_id
+- VD: 172.29.8.230/255.255.255.0 = 172.29.8.230/24 Tức 24 bits đầu cho net_id + subnet_id nếu có
+  + Mạng B do 128 <= x <= 191: có (net_id, subnet_id, host_id) = (16, 8, 8)
 
 
