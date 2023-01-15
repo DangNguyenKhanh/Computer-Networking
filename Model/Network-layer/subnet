@@ -1,4 +1,37 @@
 KỸ THUẬT CHIA MẠNG CON
 - Chia bớt số bits trong host_id cho subnet_id
 - Cấu trúc IP có dạng: network_id, subnet_id, host_id
-  
+
+
+SỐ BIT MƯỢN TỪ HOST_ID
+- Thỏa mãn: subnet_id <= host_id - 2 (bits)
+- VD: 
+  + Mạng lớp A (network_id, subnet_id, host_id) = (8, x <= 22, 24 - x) đơn vị bits
+    > có tối đa 2^22 mạng con 
+  + Mạng lớp B (network_id, subnet_id, host_id) = (16, x <= 14, 16 - x) đơn vị bits
+    > có tối đa 2^14 mạng con
+  + Mạng lớp C (network_id, subnet_id, host_id) = (24, x <= 6, 8 - x) đơn vị bits
+    > có tối đa 2^6 mạng con
+
+
+MUỐN CHIA N MẠNG CON
+- CÔNG THỨC: 2^x = n
+- VD: Muốn chia 6 mạng con <=> 2^x = 6 <=> x = log2|6 = 2.58 --lấy dư--> 3 bits. Cần 3 bits
+
+
+ĐỊA CHỈ MẠNG CON
+- (net_id, subnet_id, host_id) = 0.0.0.0
+
+
+ĐỊA CHỈ BROADCAST CỦA MẠNG CON
+- (net_id, subnet_id, host_id) = (net_id, subnet_id, 255)
+ 
+ 
+MẶT NẠ MẠNG CON - SUBNET MASK
+- (net_id, subnet_id, host_id) = 255.255.255.0
+
+
+CÁCH BIẾT NÓ CÓ CHIA SUBNET MASK HAY KHÔNG
+- VD: 172.29.8.230/24 Tức 24 bits đầu cho net_id
+
+
