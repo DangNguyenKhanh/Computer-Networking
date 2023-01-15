@@ -1,0 +1,15 @@
+KHÓA - KEY
+- Khóa đối xứng: là khóa bên gửi bên nhận giống nhau
+- Khóa công cộng: Khóa mã là chung nhưng khóa giải mã là riêng (bí mật)
+
+
+MÃ HÓA KHÓA ĐỐI XỨNG - Data Encryption Standard (DES)
+- Ưu điểm
+- Nhược điểm
+  + Chưa có cách giải mã Backdoor
+
+
+MÃ HÓA KHÓA CÔNG CỘNG - Advanced Encryption Standard (AES)
+- Ưu điểm
+  + Nhanh hơn DES
+- Nhược điểm
