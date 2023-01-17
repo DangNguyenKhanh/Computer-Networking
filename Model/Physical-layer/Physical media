@@ -16,6 +16,7 @@ Cáp xoắn đôi có bọc (Shielded Twisted Part - STP cable)
 Cáp quang (Fiber optic cable)
 - Dẫn ánh sáng, full-dupflex
 - Tốc độ: 2 Gbps
+- Có 2 loại: Dark fiber (đang chờ hoạt động) & Lit fiber (đang hoạt động)
 
 
 ĐƯỜNG TRUYỀN VÔ TUYẾN
@@ -38,6 +39,12 @@ Infrared
 
 Lightwave
 - Sóng ánh sáng
+
+
+Crossover Cable
+- Kết nối 2 hub không cần cổng uplink (uplink port)
+
+
 
 
 
