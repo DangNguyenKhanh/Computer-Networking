@@ -37,3 +37,7 @@ CÁCH BIẾT NÓ CÓ CHIA SUBNET MASK HAY KHÔNG
   + Mạng B do 128 <= x <= 191: có (net_id, subnet_id, host_id) = (16, 8, 8)
 
 
+Máy chủ chuyển tiếp lưu lượng DHCP qua các mạng con (bộ định tuyến) được gọi là gì?
+DHCP Relay Agent
+
+
