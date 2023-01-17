@@ -29,6 +29,7 @@ MUỐN CHIA N MẠNG CON
  
 MẶT NẠ MẠNG CON - SUBNET MASK
 - (net_id, subnet_id, host_id) = 255.255.255.0
+- Mặc nạ mạng con mặc định của lớp A: 255.0.0.0
 
 
 CÁCH BIẾT NÓ CÓ CHIA SUBNET MASK HAY KHÔNG
